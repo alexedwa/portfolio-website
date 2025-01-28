@@ -1,0 +1,5 @@
+.background{
+    filter: blur(8px);
+    background-image: url("src/assets/background.jpg");
+
+}
