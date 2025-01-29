@@ -1,11 +1,17 @@
-@media all and (min-width: 850px) {
+.landing{
+    background: url("/src/assets/background3.jpg") fixed 100%;
+    background-position:top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* MORE THAN 860PX SCREENS (DESKTOP) */
+@media all and (min-width: 860px) {
     .navbar{
         display: flex;
         padding: 0px 10px 0px 10px;
     }
     .title{
-        white-space: nowrap;
-        text-decoration: none;
         font-family: 'Roboto Slab';
         margin: 0px auto auto 0px;
         color: rgb(247, 247, 247);
@@ -32,7 +38,7 @@
         padding: 0px;
         font-family: inherit;
         color: rgb(247, 247, 247);
-        font-size: x-large;
+        font-size: 24px;
     }
     .linkText {
         color: inherit;
@@ -55,14 +61,13 @@
     }
 }
 
-@media all and (max-width: 850px){
+/* LESS THAN 860PX SCREENS (MOBILE) */
+@media all and (max-width: 860px){
     .navbar{
         display: flex;
         padding: 0px 10px 0px 10px;
     }
     .title{
-        white-space: wrap;
-        text-decoration: none;
         font-family: 'Roboto Slab';
         margin: 0px auto auto 0px;
         color: rgb(247, 247, 247);
@@ -129,4 +134,30 @@
         background-color: black;
         color: white;
     }
+}
+
+.introText{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 450px;
+    min-width: none;
+    height: fit-content;
+
+
+
+    font-family: 'Roboto Slab';
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(8px);
+}
+
+.nameText{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(8px);
 }
