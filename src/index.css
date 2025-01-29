@@ -1,8 +1,7 @@
 body{
     background-image: url("/src/assets/background.jpg");
-    background-position: center;
+    background-position:top;
     background-attachment: fixed;
-    min-width: 850px;
     width: auto;
 
 }
