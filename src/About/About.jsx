@@ -15,8 +15,8 @@ function About(){
             <p className={styles.CVText}>
                 <a id='CV'>Below is a link for my CV to see more indepth details about the projects I have done.</a>
             </p>
-            <a  className={styles.cvlink} href='https://alexedwa1.tiiny.site/' target='blank'>
-                <h3 className={styles.cvText}>CV</h3>
+            <a href='https://alexedwa1.tiiny.site/' target='blank' className={styles.CVouter}>
+                <button className={styles.CVLink}>CV</button>
             </a>
         </div>
     )

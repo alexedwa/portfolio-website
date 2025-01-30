@@ -4,7 +4,8 @@
     margin-left: auto;
     margin-right: auto; 
     background-color: rgb(255, 246, 235);
-    height: 70vh;
+    max-height: 600px;
+    min-height: 600px;
     min-width: 85%;
     max-width: 70%;
 }
@@ -25,42 +26,37 @@
 .CVText {
     font-family: 'Roboto Slab';
     font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px; 
-    padding-top: 80px;
+    padding: 20ps;
     text-align: center;
 }
 
-
-.cvLink a{
-    color: inherit;
+.CVLink{
     text-decoration: none;
-    box-shadow: none;
-    display: none;
-}
-.cvText{
-    text-decoration: none;
+    color: rgb(255, 246, 235);
     font-family: 'Roboto Slab';
     font-size: 22px;
     text-align: center;
-    background-color: black;
-    color:rgb(255, 246, 235);
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+
     border: 2px;
     border-style: solid;
     border-radius: 20px;
     border-color: black;
     transition: all 0.5s;
+
+    background-color: black;
+    color:rgb(255, 246, 235);
+    width: 350px;
+    padding: auto;
+    margin: auto;
 }
-.cvText:hover{
+
+.CVLink:hover{
     background-color: rgb(255, 246, 235);
     color:black;
     transition: all 0.5s;
     cursor:pointer;
 }
-.cvText:hover, .cvLink{
-    display: block;
+
+.CVouter{
+    text-align: center;
 }
