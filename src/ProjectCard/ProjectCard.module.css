@@ -1,0 +1,25 @@
+.projectCard {
+    border: 1px solid ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(35, 35, 35, 0.2);
+    padding: 20px;
+    margin: 80px;
+    text-align: center;
+    max-width:250px;
+    display: inline-block;
+    background-color: rgb(255, 247, 236);
+    width: 270px;
+    height: 270px;
+    position: relative;
+    vertical-align: top;
+}
+.title{
+    font-family: 'Roboto Slab';
+    margin: 0px;
+    color: black;
+}
+.desc{
+    font-family: 'Roboto Slab';
+    margin: 0px;
+    color: black;
+}
