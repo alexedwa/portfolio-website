@@ -6,8 +6,8 @@ function Header() {
                 <p className={styles.title}>Alexander Edwards</p>
                 <ul className={styles.list}>
                     <li className={styles.listItems}><a className={styles.linkText} href='#About'>About</a></li>
-                    <li className={styles.listItems}><a className={styles.linkText} href='#Projects'>Projects</a></li>
                     <li className={styles.listItems}><a className={styles.linkText} href='#CV'>CV</a></li>
+                    <li className={styles.listItems}><a className={styles.linkText} href='#Projects'>Projects</a></li>
                     <li className={styles.listItems}><a className={styles.linkText} href='#Contact'>Contact</a></li>
                     <li className={styles.listItems}><a className={styles.linkText} href='https://github.com/alexedwa' target='_blank'>GitHub</a></li>
                 </ul>
