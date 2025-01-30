@@ -2,7 +2,7 @@ import styles from './Projects.module.css'
 import ProjectCard from '../ProjectCard/ProjectCard';
 function Projects(){
     return(
-        <div className={styles.projectDiv}>
+        <div className={styles.projectDiv}><a id="Projects"></a>
             <h1 className={styles.subtitle}>Personal Projects</h1>
             <p className={styles.projectText}>
                 Below are some of the projects that I have made or have 
