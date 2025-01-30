@@ -73,7 +73,6 @@
         color: rgb(247, 247, 247);
         font-size: 40px;
         font-weight: 600;
-        transition: all 0.5s;
     }
     .title:hover{
         color: rgb(0, 0, 0);
@@ -95,8 +94,6 @@
         border: 0px;
         font-size: 40px;
         color: white;
-        transition: all 0.5s;
-
     }
     .dropdownButton:hover{
         background-color: rgb(255, 255, 255);
@@ -125,7 +122,6 @@
         display: block;
         text-align: right;
         font-family: 'Roboto Slab';
-        transition: all 0.5s;
 
     }
     .dropdownContent a:hover{
