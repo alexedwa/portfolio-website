@@ -1,0 +1,66 @@
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(255, 246, 235);
+    height: 70vh;
+    min-width: 85%;
+    max-width: 70%;
+}
+.subtitle{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin-top: 8%;
+    font-weight: bolder;
+}
+.aboutText{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    text-align: center;
+}
+.CVText {
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.cvLink a{
+    color: inherit;
+    text-decoration: none;
+    box-shadow: none;
+    display: none;
+}
+.cvText{
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-size: 22px;
+    text-align: center;
+    background-color: black;
+    color:rgb(255, 246, 235);
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    transition: all 0.5s;
+}
+.cvText:hover{
+    background-color: rgb(255, 246, 235);
+    color:black;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+.cvText:hover, .cvLink{
+    display: block;
+}
