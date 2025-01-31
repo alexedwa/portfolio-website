@@ -12,9 +12,8 @@ function About(){
                 programming languages, libraries and frameworks to, not only broaden 
                 my skillset, but also to use these new skills to create something unique.
             </p>
-            <p className={styles.CVText}>
-                <a id='CV'>Below is a link for my CV to see more indepth details about the projects I have done.</a>
-            </p>
+            <h1 className={styles.subtitle}><a id='CV'>Curriculum Vitae</a></h1>
+            <p className={styles.CVText}>Below is a link for my CV to see an overview of my academic and work credentials.</p>
             <a href='https://alexedwa1.tiiny.site/' target='blank' className={styles.CVouter}>
                 <button className={styles.CVLink}>CV</button>
             </a>
