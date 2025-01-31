@@ -1,4 +1,4 @@
-.aboutDiv{
+.aboutContainer{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -8,6 +8,7 @@
     min-height: 450px;
     min-width: 85%;
     max-width: 70%;
+    border-radius: 20px;
 }
 .subtitle{
     color:rgb(0, 0, 0);

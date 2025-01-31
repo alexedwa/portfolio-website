@@ -1,7 +1,7 @@
 import styles from './Header.module.css'
 function Header() {
     return(
-        <div className={styles.landing}>
+        <div className={styles.headerContainer}>
             <div className={styles.navbar}>
                 <p className={styles.title}>Alexander Edwards</p>
                 <ul className={styles.list}>
