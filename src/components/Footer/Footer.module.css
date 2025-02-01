@@ -12,6 +12,8 @@
     align-items: center;
 }
 .image{
+    background-image: url("/src/assets/github-mark-white.svg");
     height: 80px;
     width: 80px;
+    background-size: 80px 80px;
 }
